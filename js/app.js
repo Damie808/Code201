@@ -45,3 +45,32 @@ if(question5 === 'yes' || question5 === 'y'){
 }
 
 alert(`Thanks for visiting ${username}`);
+
+// function OMG(){
+//   let attempts = 5;
+//   while(attempts > 0) }
+//  { 
+//   if(question6 === 20);
+//   let question6 = prompt('What is my football number?');attempts--;
+//   }
+//     alert('You got it right!!!');
+
+//       else if (question6 > 20);{
+//       alert('Sorry try again');
+//     }
+
+function omg(){
+  let attempts = 0;
+  while(attempts < 5){
+    attempts++;
+    let question6 = prompt('What is my football number?');
+    console.log(question6);
+    if(question6 === '20'){
+      alert('Good job you got it');
+      return;
+    }
+    alert('Not quite try again');
+  }
+  alert('the answer is 20!');
+}
+omg();
