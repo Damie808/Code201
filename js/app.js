@@ -42,10 +42,10 @@ if(question4 === 'no' || question4 === 'n'){
 
 let question5 = prompt ('Do I have a dog?').toLowerCase();
 
-if(question5 === 'yes' || question5 === 'y'){
+if(question5 === 'no' || question5 === 'n'){
   alert('You got it right!');
   score++;
-} else if(question5 === 'no' || question5 === 'n'){
+} else if(question5 === 'yes' || question5 === 'y'){
   alert('Sorry try again');
 }
 
